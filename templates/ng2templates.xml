@@ -76,7 +76,6 @@
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="ng2-ngFor" value="*ngFor=&quot;let $item$ of $list$&quot;" description="Angular 2 *ngFor snippet" toReformat="true" toShortenFQNames="true" deactivated="true">
@@ -84,28 +83,24 @@
     <variable name="list" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="ng2-ngIf" value="*ngIf=&quot;$expression$&quot;" description="Angular 2 *ngIf snippet" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="ng2-ngModel" value="[(ngModel)]=&quot;$binding$&quot;" description="Angular 2 ngModel snippet" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="binding" expression="" defaultValue="&quot;binding&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="ng2-routerLink" value="[routerLink]=&quot;['/$routeName$']&quot;" description="Angular 2 routerLink snippet" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="routeName" expression="" defaultValue="&quot;routeName&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="ng2-ngStyle" value="[ngStyle]=&quot;{$style$: $expression$}&quot;" description="Angular 2 ngStyle snippet" toReformat="true" toShortenFQNames="true" deactivated="true">
@@ -113,7 +108,6 @@
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="ng2-ngSwitch" value="&lt;div [ngSwitch]=&quot;$conditionExpression$&quot;&gt;&#10; &lt;div *ngSwitchCase=&quot;$expression$&quot;&gt;$output$&lt;/div&gt;&#10; &lt;div *ngSwitchDefault&gt;$output2$&lt;/div&gt;&#10;&lt;/div&gt;" description="Angular 2 ngSwitch snippet" toReformat="true" toShortenFQNames="true" deactivated="true">
@@ -123,7 +117,6 @@
     <variable name="output2" expression="" defaultValue="&quot;output2&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
 </templateSet>
