@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-controller="MainController as vm">
+
+    <div>
+        vm.title lautet: {{vm.title}}
+        <div>controller funzt, falls vm.title angezeigt wird (ohne {})</div>
+        <div ng-show="!!vm.title">controller funzt, vm.title wird angezeigt</div>
+    </div>
+
+    <myngdir></myngdir>
+
+</body>
+
+    <script src="https://code.angularjs.org/1.3.17/angular.js"></script>
+    <script>
+        angular.module('app', []);
+    </script>
+    <script src="script.js"></script>
+
+</html>

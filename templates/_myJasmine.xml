@@ -1,0 +1,13 @@
+<templateSet group="_myJasmine">
+  <template name="myjasctrl" value="describe('Controller $MyName$ ', function() {&#10;    var $controllerConstructor;&#10;    var scope;&#10;    var controller;&#10;&#10;    beforeEach(module('$module$'));&#10;&#10;    beforeEach(inject(function($controller, $rootScope){&#10;        $controllerConstructor = $controller;&#10;        scope = $rootScope.$new();&#10;        controller = $controllerConstructor('Play as vm', {$scope:scope});&#10;    }));&#10;&#10;    it('controller should be defined', function(){&#10;        expect(controller).toBeDefined();&#10;    });&#10;&#10;    it('vm.$property$ should be equalTo &quot;$value$&quot;', function(){&#10;        scope.vm.$property$ = '$value$';&#10;        expect(scope.vm.$property$).toEqual('$value$');&#10;    });&#10;&#10;    it('should $text$', function(){&#10;        expect($END$);&#10;    });&#10;&#10;});&#10;" description="jasmine angular controller" toReformat="true" toShortenFQNames="true">
+    <variable name="MyName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+</templateSet>

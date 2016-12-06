@@ -1,0 +1,24 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="85dcf376-6f02-498c-b1f3-80a36bb37408" name="html" url="http://html/">
+        <fileTransfer mountedRoot="C:\www\html" accessType="MOUNT" />
+      </webServer>
+      <webServer id="c8d60d15-0241-4bb0-b454-ed6991226a47" name="apache_wamp" url="http://localhost">
+        <fileTransfer mountedRoot="C:\wamp\bin\apache\apache2.4.9\htdocs" accessType="MOUNT" />
+      </webServer>
+      <webServer id="13fe1474-e8c6-423e-80ef-2b322ebe2e22" name="!_dw_beta.0.0.3" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="17850735-9ce1-435a-af4d-b7ef2f59a7ef" name="html (1)" url="http://html/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="afe2b25b-b248-4709-975c-e40d55c1f450" name="localhost:3000" url="http://localhost:3000">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="523f1550-2d02-4b60-8367-53addedae836" name="beta0.0.4" url="http://html/!_kuensang/beta0.0.4/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

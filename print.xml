@@ -1,0 +1,13 @@
+<application>
+  <component name="PrintSettings">
+    <option name="includeSubdirectories" value="true" />
+    <option name="printScope" value="1" />
+    <option name="COLOR_PRINTING" value="true" />
+    <option name="FONT_NAME" value="Arial" />
+    <option name="FONT_SIZE" value="10" />
+    <option name="TOP_MARGIN" value="0.3" />
+    <option name="BOTTOM_MARGIN" value="0.3" />
+    <option name="DRAW_BORDER" value="false" />
+    <option name="FOOTER_HEADER_TEXT2" value="Page $PAGE$ of $TOTALPAGES$   - $DATE$" />
+  </component>
+</application>

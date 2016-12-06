@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping ext="spec" type="JavaScript" />
+      <mapping pattern="zweites File SDK-no-upstr" type="PLAIN_TEXT" />
+      <mapping pattern="master1" type="PLAIN_TEXT" />
+      <mapping pattern="api-key" type="PLAIN_TEXT" />
+      <mapping ext="service" type="PLAIN_TEXT" />
+      <mapping pattern="modelBase" type="TypeScript" />
+    </extensionMap>
+  </component>
+</application>
