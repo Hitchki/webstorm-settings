@@ -8,6 +8,7 @@
       <mapping ext="service" type="PLAIN_TEXT" />
       <mapping pattern="output" type="TypeScript" />
       <mapping pattern="modelBase" type="TypeScript" />
+      <mapping pattern="checkout-testfile" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
