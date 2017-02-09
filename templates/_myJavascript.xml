@@ -1,5 +1,5 @@
 <templateSet group="_myJavascript">
-  <template name="myco" value="console.log('$description$: ', $value$);" description="console.log" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="myco" value="console.log('$description$: ', $value$);" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
