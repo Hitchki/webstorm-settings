@@ -1,0 +1,5 @@
+<templateSet group="f-franz">
+  <template name="co" value="console.log('$expression$', $expression$);   // *remove before push&#10;$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
