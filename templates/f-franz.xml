@@ -1,5 +1,8 @@
 <templateSet group="f-franz">
-  <template name="co" value="console.log('$expression$', $expression$);   // *remove before push&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="co" value="console.log('$expression$', $expression$);   // *remove before push&#10;$END$" shortcut="SPACE" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
 </templateSet>
