@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="spec" type="JavaScript" />
       <mapping pattern="zweites File SDK-no-upstr" type="PLAIN_TEXT" />
@@ -10,6 +10,7 @@
       <mapping pattern="modelBase" type="TypeScript" />
       <mapping pattern="output" type="TypeScript" />
       <mapping pattern="checkout-testfile" type="TypeScript" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
     </extensionMap>
   </component>
 </application>
