@@ -18,7 +18,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="con-temp" value="&lt;ng-container *ngtemplateoutlet=&quot;$templOut$; context:{$param$: $param$}&quot;&gt;&lt;/ng-container&gt;" description="ngtemplateoutlet" toReformat="false" toShortenFQNames="true">
+  <template name="con-temp" value="&lt;ng-container *ngTemplateOutlet=&quot;$templOut$; context:{$param$: $param$}&quot;&gt;&lt;/ng-container&gt;" description="ngtemplateoutlet" toReformat="false" toShortenFQNames="true">
     <variable name="templOut" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
