@@ -11,14 +11,14 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="ng-temp" value="&lt;ng-template $temp$ let-$par$=&quot;$par$&quot;&gt;&lt;/ng-template&gt;" description="ng-template" toReformat="false" toShortenFQNames="true">
+  <template name="ng-templ" value="&lt;ng-template $temp$ let-$par$=&quot;$par$&quot;&gt;&lt;/ng-template&gt;" description="ng-template" toReformat="false" toShortenFQNames="true">
     <variable name="temp" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="par" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="con-temp" value="&lt;ng-container *ngTemplateOutlet=&quot;$templOut$; context:{$param$: $param$}&quot;&gt;&lt;/ng-container&gt;" description="ngtemplateoutlet" toReformat="false" toShortenFQNames="true">
+  <template name="con-templ" value="&lt;ng-container *ngTemplateOutlet=&quot;$templOut$; context:{$param$: $param$}&quot;&gt;&lt;/ng-container&gt;" description="ngtemplateoutlet" toReformat="false" toShortenFQNames="true">
     <variable name="templOut" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
