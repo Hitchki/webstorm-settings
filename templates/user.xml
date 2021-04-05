@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="dd" value="$expression$:{{$expression$}}:$END$" description="dd" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

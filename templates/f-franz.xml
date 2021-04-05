@@ -25,4 +25,16 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="ddd" value="$expression$:{{$expression$ | json}}$END$" description="ddd" toReformat="false" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="$expression$:{{$expression$}}:$END$" description="dd" toReformat="false" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
