@@ -7,4 +7,12 @@
     <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
   </component>
   <component name="LiveEditOptions" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" useJBChromeExtension="true" />
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern case-sensitive="true" pattern="entscheidend*" />
+    <filter name="entscheidend">
+      <pattern index="2" />
+    </filter>
+  </component>
 </application>
