@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="16f419e2-8be9-46b3-9e4e-e62e1fd96f90" name="Hitchki">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="Hitchki" />
     <option name="HOST" value="https://github.com" />
